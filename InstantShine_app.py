@@ -1,6 +1,5 @@
 import streamlit as st
-pip install opencv-python
-from PIL import Image
+import Image
 import cv2
 
 img = Image.open("Instant.jpeg")
