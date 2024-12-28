@@ -1,5 +1,5 @@
 import streamlit as st
-import Image
+from PIL import Image
 import cv2
 
 img = Image.open("Instant.jpeg")
