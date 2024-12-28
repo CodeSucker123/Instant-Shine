@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Instant Shine")
 
-from PIL import image
+from PIL import Image
 import cv2
 
 img = Image.open("Instant")
