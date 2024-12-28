@@ -1,7 +1,7 @@
 import streamlit as st
-from PIL import Image
-import cv2
 
-img=Image.open("Instant.jpeg")
-#img = cv2.imread("Instant.jpeg")
-st.image(img)
+st.title("Instant Shine")
+
+st.subheader("Contact information")
+
+st.image("./media/Info.jpg")
